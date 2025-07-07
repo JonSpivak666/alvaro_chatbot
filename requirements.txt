@@ -1,0 +1,8 @@
+pandas
+openai
+google-generativeai
+python-dotenv
+fastapi
+uvicorn
+yagmail
+psycopg2-binary
