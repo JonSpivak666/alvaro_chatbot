@@ -1,4 +1,58 @@
+# === Sistema operativo (macOS) ===
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# === Archivos de entornos virtuales ===
 venv/
+env/
+.venv/
+ENV/
+
+# === Python bytecode ===
 __pycache__/
+*.py[cod]
+*$py.class
+
+# === Archivos de log o debugging ===
+*.log
+*.out
+*.err
+
+# === Archivos de configuración de entorno ===
 .env
-*.pyc
+.env.*
+
+# === Archivos de configuración de IDEs ===
+.idea/
+.vscode/
+
+# === Archivos de test o ejecución temporal ===
+*.sqlite3
+*.db
+*.bak
+*.swp
+
+# === AWS credentials (no incluir claves locales) ===
+.aws/
+
+# === Archivos de paquetes y distribución ===
+*.egg-info/
+*.egg
+dist/
+build/
+
+# === Jupyter Notebooks Checkpoints ===
+.ipynb_checkpoints
+
+# === Archivos específicos de Gemini o API keys ===
+keys/
+token.json
+credentials.json
+
+# === Documentos generados automáticamente ===
+*.pdf
